@@ -1,0 +1,283 @@
+s3cmd cp --acl-public --recursive --include * s3://mlops-data/fraud-data/ s3://mykochecnyuk-bucket/fraud-data/
+
+
+remote copy: 's3://mlops-data/fraud-data/2019-08-22.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-08-22.txt'  [part 1 of 3, 1024MB] [1 of 40]
+ 1073741824 of 1073741824   100% in   25s    40.74 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-08-22.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-08-22.txt'  [part 2 of 3, 1024MB] [1 of 40]
+ 1073741824 of 1073741824   100% in   36s    27.80 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-08-22.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-08-22.txt'  [part 3 of 3, 629MB] [1 of 40]
+ 659925623 of 659925623   100% in   19s    32.06 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-08-22.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-08-22.txt'  [1 of 40]
+remote copy: 's3://mlops-data/fraud-data/2019-09-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-09-21.txt'  [part 1 of 3, 1024MB] [2 of 40]
+ 1073741824 of 1073741824   100% in   34s    29.50 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-09-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-09-21.txt'  [part 2 of 3, 1024MB] [2 of 40]
+ 1073741824 of 1073741824   100% in   36s    28.42 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-09-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-09-21.txt'  [part 3 of 3, 674MB] [2 of 40]
+ 706995360 of 706995360   100% in   20s    33.52 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-09-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-09-21.txt'  [2 of 40]
+remote copy: 's3://mlops-data/fraud-data/2019-10-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-10-21.txt'  [part 1 of 3, 1024MB] [3 of 40]
+ 1073741824 of 1073741824   100% in   38s    26.91 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-10-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-10-21.txt'  [part 2 of 3, 1024MB] [3 of 40]
+ 1073741824 of 1073741824   100% in   31s    32.89 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-10-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-10-21.txt'  [part 3 of 3, 713MB] [3 of 40]
+ 747976895 of 747976895   100% in   23s    29.96 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-10-21.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-10-21.txt'  [3 of 40]
+remote copy: 's3://mlops-data/fraud-data/2019-11-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-11-20.txt'  [part 1 of 3, 1024MB] [4 of 40]
+ 1073741824 of 1073741824   100% in   31s    32.72 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-11-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-11-20.txt'  [part 2 of 3, 1024MB] [4 of 40]
+ 1073741824 of 1073741824   100% in   26s    39.20 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-11-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-11-20.txt'  [part 3 of 3, 754MB] [4 of 40]
+ 791637294 of 791637294   100% in   23s    32.58 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-11-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-11-20.txt'  [4 of 40]
+remote copy: 's3://mlops-data/fraud-data/2019-12-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-12-20.txt'  [part 1 of 3, 1024MB] [5 of 40]
+ 1073741824 of 1073741824   100% in   20s    49.98 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-12-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-12-20.txt'  [part 2 of 3, 1024MB] [5 of 40]
+ 1073741824 of 1073741824   100% in   21s    48.50 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-12-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-12-20.txt'  [part 3 of 3, 808MB] [5 of 40]
+ 847978629 of 847978629   100% in   15s    51.40 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2019-12-20.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2019-12-20.txt'  [5 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-01-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-01-19.txt'  [part 1 of 3, 1024MB] [6 of 40]
+ 1073741824 of 1073741824   100% in   20s    50.53 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-01-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-01-19.txt'  [part 2 of 3, 1024MB] [6 of 40]
+ 1073741824 of 1073741824   100% in   17s    58.34 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-01-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-01-19.txt'  [part 3 of 3, 808MB] [6 of 40]
+ 847423119 of 847423119   100% in   12s    63.50 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-01-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-01-19.txt'  [6 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-02-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-02-18.txt'  [part 1 of 3, 1024MB] [7 of 40]
+ 1073741824 of 1073741824   100% in   26s    38.88 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-02-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-02-18.txt'  [part 2 of 3, 1024MB] [7 of 40]
+ 1073741824 of 1073741824   100% in   21s    48.75 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-02-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-02-18.txt'  [part 3 of 3, 808MB] [7 of 40]
+ 847947592 of 847947592   100% in   15s    52.37 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-02-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-02-18.txt'  [7 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-03-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-03-19.txt'  [part 1 of 3, 1024MB] [8 of 40]
+ 1073741824 of 1073741824   100% in   20s    50.38 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-03-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-03-19.txt'  [part 2 of 3, 1024MB] [8 of 40]
+ 1073741824 of 1073741824   100% in   24s    42.38 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-03-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-03-19.txt'  [part 3 of 3, 808MB] [8 of 40]
+ 847692518 of 847692518   100% in   20s    39.89 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-03-19.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-03-19.txt'  [8 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-04-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-04-18.txt'  [part 1 of 3, 1024MB] [9 of 40]
+ 1073741824 of 1073741824   100% in   34s    29.59 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-04-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-04-18.txt'  [part 2 of 3, 1024MB] [9 of 40]
+ 1073741824 of 1073741824   100% in   33s    30.65 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-04-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-04-18.txt'  [part 3 of 3, 809MB] [9 of 40]
+ 848550984 of 848550984   100% in   33s    24.24 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-04-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-04-18.txt'  [9 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-05-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-05-18.txt'  [part 1 of 3, 1024MB] [10 of 40]
+ 1073741824 of 1073741824   100% in   24s    41.54 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-05-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-05-18.txt'  [part 2 of 3, 1024MB] [10 of 40]
+ 1073741824 of 1073741824   100% in   22s    45.45 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-05-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-05-18.txt'  [part 3 of 3, 808MB] [10 of 40]
+ 848183317 of 848183317   100% in   30s    26.54 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-05-18.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-05-18.txt'  [10 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-06-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-06-17.txt'  [part 1 of 3, 1024MB] [11 of 40]
+ 1073741824 of 1073741824   100% in   29s    34.69 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-06-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-06-17.txt'  [part 2 of 3, 1024MB] [11 of 40]
+ 1073741824 of 1073741824   100% in   28s    35.35 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-06-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-06-17.txt'  [part 3 of 3, 807MB] [11 of 40]
+ 847215753 of 847215753   100% in   24s    32.67 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-06-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-06-17.txt'  [11 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-07-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-07-17.txt'  [part 1 of 3, 1024MB] [12 of 40]
+ 1073741824 of 1073741824   100% in   20s    49.60 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-07-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-07-17.txt'  [part 2 of 3, 1024MB] [12 of 40]
+ 1073741824 of 1073741824   100% in   32s    31.57 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-07-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-07-17.txt'  [part 3 of 3, 809MB] [12 of 40]
+ 848326362 of 848326362   100% in   27s    29.95 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-07-17.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-07-17.txt'  [12 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-08-16.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-08-16.txt'  [part 1 of 3, 1024MB] [13 of 40]
+ 1073741824 of 1073741824   100% in   25s    40.25 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-08-16.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-08-16.txt'  [part 2 of 3, 1024MB] [13 of 40]
+ 1073741824 of 1073741824   100% in   24s    41.15 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-08-16.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-08-16.txt'  [part 3 of 3, 809MB] [13 of 40]
+ 848511504 of 848511504   100% in   20s    38.87 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-08-16.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-08-16.txt'  [13 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-09-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-09-15.txt'  [part 1 of 3, 1024MB] [14 of 40]
+ 1073741824 of 1073741824   100% in   23s    44.36 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-09-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-09-15.txt'  [part 2 of 3, 1024MB] [14 of 40]
+ 1073741824 of 1073741824   100% in   26s    39.38 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-09-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-09-15.txt'  [part 3 of 3, 808MB] [14 of 40]
+ 848294734 of 848294734   100% in   19s    42.36 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-09-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-09-15.txt'  [14 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-10-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-10-15.txt'  [part 1 of 3, 1024MB] [15 of 40]
+ 1073741824 of 1073741824   100% in   32s    31.24 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-10-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-10-15.txt'  [part 2 of 3, 1024MB] [15 of 40]
+ 1073741824 of 1073741824   100% in   28s    35.74 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-10-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-10-15.txt'  [part 3 of 3, 809MB] [15 of 40]
+ 848384948 of 848384948   100% in   20s    39.18 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-10-15.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-10-15.txt'  [15 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-11-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-11-14.txt'  [part 1 of 3, 1024MB] [16 of 40]
+ 1073741824 of 1073741824   100% in   32s    31.47 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-11-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-11-14.txt'  [part 2 of 3, 1024MB] [16 of 40]
+ 1073741824 of 1073741824   100% in   32s    31.91 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-11-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-11-14.txt'  [part 3 of 3, 808MB] [16 of 40]
+ 847983885 of 847983885   100% in   23s    34.36 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-11-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-11-14.txt'  [16 of 40]
+remote copy: 's3://mlops-data/fraud-data/2020-12-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-12-14.txt'  [part 1 of 3, 1024MB] [17 of 40]
+ 1073741824 of 1073741824   100% in   26s    38.21 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-12-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-12-14.txt'  [part 2 of 3, 1024MB] [17 of 40]
+ 1073741824 of 1073741824   100% in   22s    45.50 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-12-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-12-14.txt'  [part 3 of 3, 808MB] [17 of 40]
+ 847277976 of 847277976   100% in   19s    42.12 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2020-12-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2020-12-14.txt'  [17 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-01-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-01-13.txt'  [part 1 of 3, 1024MB] [18 of 40]
+ 1073741824 of 1073741824   100% in   26s    38.50 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-01-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-01-13.txt'  [part 2 of 3, 1024MB] [18 of 40]
+ 1073741824 of 1073741824   100% in   21s    46.68 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-01-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-01-13.txt'  [part 3 of 3, 808MB] [18 of 40]
+ 847906928 of 847906928   100% in   16s    47.95 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-01-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-01-13.txt'  [18 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-02-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-02-12.txt'  [part 1 of 3, 1024MB] [19 of 40]
+ 1073741824 of 1073741824   100% in   17s    59.50 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-02-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-02-12.txt'  [part 2 of 3, 1024MB] [19 of 40]
+ 1073741824 of 1073741824   100% in   16s    60.59 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-02-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-02-12.txt'  [part 3 of 3, 808MB] [19 of 40]
+ 848296869 of 848296869   100% in   18s    43.18 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-02-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-02-12.txt'  [19 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-03-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-03-14.txt'  [part 1 of 3, 1024MB] [20 of 40]
+ 1073741824 of 1073741824   100% in   20s    50.94 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-03-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-03-14.txt'  [part 2 of 3, 1024MB] [20 of 40]
+ 1073741824 of 1073741824   100% in   17s    58.83 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-03-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-03-14.txt'  [part 3 of 3, 808MB] [20 of 40]
+ 847708011 of 847708011   100% in   20s    38.87 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-03-14.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-03-14.txt'  [20 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-04-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-04-13.txt'  [part 1 of 3, 1024MB] [21 of 40]
+ 1073741824 of 1073741824   100% in   19s    52.12 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-04-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-04-13.txt'  [part 2 of 3, 1024MB] [21 of 40]
+ 1073741824 of 1073741824   100% in   22s    44.99 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-04-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-04-13.txt'  [part 3 of 3, 808MB] [21 of 40]
+ 847962847 of 847962847   100% in   19s    41.71 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-04-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-04-13.txt'  [21 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-05-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-05-13.txt'  [part 1 of 3, 1024MB] [22 of 40]
+ 1073741824 of 1073741824   100% in   25s    39.64 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-05-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-05-13.txt'  [part 2 of 3, 1024MB] [22 of 40]
+ 1073741824 of 1073741824   100% in   21s    46.88 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-05-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-05-13.txt'  [part 3 of 3, 840MB] [22 of 40]
+ 881687327 of 881687327   100% in   21s    39.54 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-05-13.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-05-13.txt'  [22 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-06-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-06-12.txt'  [part 1 of 3, 1024MB] [23 of 40]
+ 1073741824 of 1073741824   100% in   13s    73.25 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-06-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-06-12.txt'  [part 2 of 3, 1024MB] [23 of 40]
+ 1073741824 of 1073741824   100% in   20s    49.50 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-06-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-06-12.txt'  [part 3 of 3, 853MB] [23 of 40]
+ 895208343 of 895208343   100% in   15s    54.37 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-06-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-06-12.txt'  [23 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-07-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-07-12.txt'  [part 1 of 3, 1024MB] [24 of 40]
+ 1073741824 of 1073741824   100% in   18s    54.00 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-07-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-07-12.txt'  [part 2 of 3, 1024MB] [24 of 40]
+ 1073741824 of 1073741824   100% in   20s    49.61 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-07-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-07-12.txt'  [part 3 of 3, 853MB] [24 of 40]
+ 894496687 of 894496687   100% in   18s    46.55 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-07-12.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-07-12.txt'  [24 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-08-11.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-08-11.txt'  [part 1 of 3, 1024MB] [25 of 40]
+ 1073741824 of 1073741824   100% in   21s    48.25 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-08-11.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-08-11.txt'  [part 2 of 3, 1024MB] [25 of 40]
+ 1073741824 of 1073741824   100% in   21s    46.89 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-08-11.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-08-11.txt'  [part 3 of 3, 853MB] [25 of 40]
+ 895178539 of 895178539   100% in   18s    46.13 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-08-11.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-08-11.txt'  [25 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-09-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-09-10.txt'  [part 1 of 3, 1024MB] [26 of 40]
+ 1073741824 of 1073741824   100% in   25s    40.83 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-09-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-09-10.txt'  [part 2 of 3, 1024MB] [26 of 40]
+ 1073741824 of 1073741824   100% in   20s    49.46 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-09-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-09-10.txt'  [part 3 of 3, 853MB] [26 of 40]
+ 894971525 of 894971525   100% in   15s    53.84 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-09-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-09-10.txt'  [26 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-10-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-10-10.txt'  [part 1 of 3, 1024MB] [27 of 40]
+ 1073741824 of 1073741824   100% in   21s    48.49 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-10-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-10-10.txt'  [part 2 of 3, 1024MB] [27 of 40]
+ 1073741824 of 1073741824   100% in   20s    49.68 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-10-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-10-10.txt'  [part 3 of 3, 853MB] [27 of 40]
+ 894940590 of 894940590   100% in   20s    41.19 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-10-10.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-10-10.txt'  [27 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-11-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-11-09.txt'  [part 1 of 3, 1024MB] [28 of 40]
+ 1073741824 of 1073741824   100% in   20s    50.82 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-11-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-11-09.txt'  [part 2 of 3, 1024MB] [28 of 40]
+ 1073741824 of 1073741824   100% in   23s    43.99 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-11-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-11-09.txt'  [part 3 of 3, 853MB] [28 of 40]
+ 894875050 of 894875050   100% in   18s    45.34 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-11-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-11-09.txt'  [28 of 40]
+remote copy: 's3://mlops-data/fraud-data/2021-12-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-12-09.txt'  [part 1 of 3, 1024MB] [29 of 40]
+ 1073741824 of 1073741824   100% in   22s    46.12 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-12-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-12-09.txt'  [part 2 of 3, 1024MB] [29 of 40]
+ 1073741824 of 1073741824   100% in   19s    51.36 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-12-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-12-09.txt'  [part 3 of 3, 853MB] [29 of 40]
+ 895440337 of 895440337   100% in   13s    65.47 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2021-12-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2021-12-09.txt'  [29 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-01-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-01-08.txt'  [part 1 of 3, 1024MB] [30 of 40]
+ 1073741824 of 1073741824   100% in   21s    47.77 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-01-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-01-08.txt'  [part 2 of 3, 1024MB] [30 of 40]
+ 1073741824 of 1073741824   100% in   18s    54.23 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-01-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-01-08.txt'  [part 3 of 3, 853MB] [30 of 40]
+ 895384439 of 895384439   100% in   16s    51.04 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-01-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-01-08.txt'  [30 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-02-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-02-07.txt'  [part 1 of 3, 1024MB] [31 of 40]
+ 1073741824 of 1073741824   100% in   20s    51.07 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-02-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-02-07.txt'  [part 2 of 3, 1024MB] [31 of 40]
+ 1073741824 of 1073741824   100% in   21s    47.80 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-02-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-02-07.txt'  [part 3 of 3, 854MB] [31 of 40]
+ 895665142 of 895665142   100% in   15s    56.54 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-02-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-02-07.txt'  [31 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-03-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-03-09.txt'  [part 1 of 3, 1024MB] [32 of 40]
+ 1073741824 of 1073741824   100% in   16s    61.54 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-03-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-03-09.txt'  [part 2 of 3, 1024MB] [32 of 40]
+ 1073741824 of 1073741824   100% in   25s    40.34 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-03-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-03-09.txt'  [part 3 of 3, 853MB] [32 of 40]
+ 894828543 of 894828543   100% in   17s    49.36 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-03-09.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-03-09.txt'  [32 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-04-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-04-08.txt'  [part 1 of 3, 1024MB] [33 of 40]
+ 1073741824 of 1073741824   100% in   26s    38.87 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-04-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-04-08.txt'  [part 2 of 3, 1024MB] [33 of 40]
+ 1073741824 of 1073741824   100% in   23s    43.56 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-04-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-04-08.txt'  [part 3 of 3, 853MB] [33 of 40]
+ 894490318 of 894490318   100% in   18s    46.60 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-04-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-04-08.txt'  [33 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-05-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-05-08.txt'  [part 1 of 3, 1024MB] [34 of 40]
+ 1073741824 of 1073741824   100% in   26s    38.96 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-05-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-05-08.txt'  [part 2 of 3, 1024MB] [34 of 40]
+ 1073741824 of 1073741824   100% in   22s    44.68 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-05-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-05-08.txt'  [part 3 of 3, 883MB] [34 of 40]
+ 926276513 of 926276513   100% in   21s    41.70 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-05-08.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-05-08.txt'  [34 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-06-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-06-07.txt'  [part 1 of 3, 1024MB] [35 of 40]
+ 1073741824 of 1073741824   100% in   22s    45.00 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-06-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-06-07.txt'  [part 2 of 3, 1024MB] [35 of 40]
+ 1073741824 of 1073741824   100% in   24s    41.13 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-06-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-06-07.txt'  [part 3 of 3, 898MB] [35 of 40]
+ 941894598 of 941894598   100% in   17s    51.02 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-06-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-06-07.txt'  [35 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-07-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-07-07.txt'  [part 1 of 3, 1024MB] [36 of 40]
+ 1073741824 of 1073741824   100% in   24s    41.42 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-07-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-07-07.txt'  [part 2 of 3, 1024MB] [36 of 40]
+ 1073741824 of 1073741824   100% in   28s    36.16 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-07-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-07-07.txt'  [part 3 of 3, 898MB] [36 of 40]
+ 942106071 of 942106071   100% in   22s    39.51 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-07-07.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-07-07.txt'  [36 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-08-06.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-08-06.txt'  [part 1 of 3, 1024MB] [37 of 40]
+ 1073741824 of 1073741824   100% in   19s    53.65 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-08-06.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-08-06.txt'  [part 2 of 3, 1024MB] [37 of 40]
+ 1073741824 of 1073741824   100% in   19s    52.14 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-08-06.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-08-06.txt'  [part 3 of 3, 898MB] [37 of 40]
+ 942516609 of 942516609   100% in   16s    54.74 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-08-06.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-08-06.txt'  [37 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-09-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-09-05.txt'  [part 1 of 3, 1024MB] [38 of 40]
+ 1073741824 of 1073741824   100% in   18s    54.76 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-09-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-09-05.txt'  [part 2 of 3, 1024MB] [38 of 40]
+ 1073741824 of 1073741824   100% in   19s    52.65 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-09-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-09-05.txt'  [part 3 of 3, 898MB] [38 of 40]
+ 941907226 of 941907226   100% in   16s    54.87 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-09-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-09-05.txt'  [38 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-10-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-10-05.txt'  [part 1 of 3, 1024MB] [39 of 40]
+ 1073741824 of 1073741824   100% in   18s    54.67 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-10-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-10-05.txt'  [part 2 of 3, 1024MB] [39 of 40]
+ 1073741824 of 1073741824   100% in   18s    56.58 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-10-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-10-05.txt'  [part 3 of 3, 917MB] [39 of 40]
+ 961984419 of 961984419   100% in   17s    53.51 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-10-05.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-10-05.txt'  [39 of 40]
+remote copy: 's3://mlops-data/fraud-data/2022-11-04.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-11-04.txt'  [part 1 of 3, 1024MB] [40 of 40]
+ 1073741824 of 1073741824   100% in   18s    55.68 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-11-04.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-11-04.txt'  [part 2 of 3, 1024MB] [40 of 40]
+ 1073741824 of 1073741824   100% in   21s    48.38 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-11-04.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-11-04.txt'  [part 3 of 3, 943MB] [40 of 40]
+ 989174321 of 989174321   100% in   16s    55.79 MB/s  done
+remote copy: 's3://mlops-data/fraud-data/2022-11-04.txt' -> 's3://mykochecnyuk-bucket/fraud-data/2022-11-04.txt'  [40 of 40]
