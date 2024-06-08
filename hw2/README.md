@@ -1,3 +1,5 @@
+Для работы был создан бакет `s3://mykochecnyuk-bucket/fraud-data/`. Права доступа для него настроены. Можно просмотреть его содержимое
+
 По итогам выполнения запроса `s3cmd cp --acl-public --recursive --include * s3://mlops-data/fraud-data/ s3://mykochecnyuk-bucket/fraud-data/` получилось копировать данные из бакета в свой [#Log с копированием](log_of_copy.txt).
 
 И по запросу `s3cmd ls s3://mykochecnyuk-bucket/fraud-data/` удалось получить [#Log с просмотром](log_of_ls.txt).
